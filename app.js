@@ -26,7 +26,7 @@ function generateMsg() {
     const wordObj = selectWord();
     const word = wordObj.word;
     const desc = wordObj.description;
-    msg = `Today's word: ${word}\n\n${desc}`;
+    msg = `Today's word: ${word}\n\n${desc}\n\n#wordoftheday`;
 
     if (msg.length < 5000) {
       break;
